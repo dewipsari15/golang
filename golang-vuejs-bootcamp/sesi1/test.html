@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .hitam {
+      color: black;
+      margin-top: 50px;
+    }
+
+    h2,
+    h1 {
+      color: red;
+    }
+  </style>
+  <body>
+    <div>
+      <h1>HiColleagues</h1>
+      <h2>HiColleagues</h2>
+      <h1 class="hitam" id="title">Sany</h1>
+      <input type="text" placeholder="sanyadika@gmail.com" />
+      <input type="password" placeholder="Password" />
+      <button type="button" onclick="login()">CLICK ME!</button>
+      <button type="button" onclick="change()">Change Text</button>
+    </div>
+  </body>
+
+  <script>
+    function login() {
+      alert("hello world");
+    }
+    function change() {
+      document.getElementById("title").innerHTML = "HiColleagues";
+    }
+  </script>
+</html>
